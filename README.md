@@ -4,7 +4,7 @@
 "Рекурсія"<br/>
 дисципліни "Вступ до функціонального програмування"
 </p>
-<p align="right"><b>Студент(-ка)</b>: Прізвище Ім'я По-батькові Група</p>
+<p align="right"><b>Студент(-ка)</b>: Корольов Юрій Ігорович КВ-23</p>
 <p align="right"><b>Рік</b>: 2025</p>
 
 ## Загальне завдання
@@ -32,7 +32,7 @@
                    (remove-thirds (cdddr lst))))))) ; пропускаємо 3-й і рекурсивно йдемо далі
 ```
 
-### Тестові набори та утиліти
+### Тестові набори
 ```lisp
 (defun check-remove-thirds (name input expected)
   "Виконує `remove-thirds` на `input`, порівнює результат з `expected` 
@@ -86,7 +86,7 @@ NIL
   (list-union-two lst1 (list-union-two lst2 lst3)))
 ```
 
-### Тестові набори та утиліти
+### Тестові набори
 ```lisp
 (defun check-union-3 (name l1 l2 l3 expected)
   "Виконує `list-set-union-3` на вхідних списках, порівнює результат з `expected` 
